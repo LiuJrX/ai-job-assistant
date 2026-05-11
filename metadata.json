@@ -1,0 +1,6 @@
+{
+  "name": "AI Job Assistant (Python Backend)",
+  "description": "An AI-powered job application automation tool. This project provides a Python-based backend for automating job searches on platforms like Boss Zhipin and Liepin, using Gemini for intelligent filtering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

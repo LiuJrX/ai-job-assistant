@@ -1,0 +1,17 @@
+[project]
+name = "get-jobs-backend"
+version = "0.1.0"
+description = "AI Job Assistant Backend"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "playwright",
+    "google-generativeai",
+    "pydantic",
+    "beautifulsoup4",
+]
+
+[tool.uv]
+package = true
