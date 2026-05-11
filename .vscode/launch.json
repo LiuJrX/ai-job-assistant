@@ -1,0 +1,41 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "BOSS Prepare",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/backend/run_bot.py",
+      "cwd": "${workspaceFolder}/backend",
+      "python": "${workspaceFolder}/backend/.venv/bin/python",
+      "env": {
+        "JOB_REQUEST_JSON": "{\"executionMode\":\"prepare\",\"maxCityCount\":1,\"maxKeywordCount\":1}"
+      },
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "BOSS Check",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/backend/run_bot.py",
+      "cwd": "${workspaceFolder}/backend",
+      "python": "${workspaceFolder}/backend/.venv/bin/python",
+      "env": {
+        "JOB_REQUEST_JSON": "{\"executionMode\":\"check\",\"maxCityCount\":1,\"maxKeywordCount\":1}"
+      },
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "BOSS Search Agent",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/backend/run_bot.py",
+      "cwd": "${workspaceFolder}/backend",
+      "python": "${workspaceFolder}/backend/.venv/bin/python",
+      "env": {
+        "JOB_REQUEST_JSON": "{\"executionMode\":\"search\",\"queryOverride\":\"Agent\",\"maxCityCount\":1,\"maxKeywordCount\":1,\"maxJobsPerPlatform\":10}"
+      },
+      "console": "integratedTerminal"
+    }
+  ]
+}

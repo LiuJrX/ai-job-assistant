@@ -7,5 +7,8 @@ coverage/
 __pycache__/
 .pytest_cache/
 .venv/
+backend/.venv/
+backend/.playwright/
+data/
 .env*
 !.env.example

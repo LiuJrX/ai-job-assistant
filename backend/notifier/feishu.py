@@ -1,0 +1,6 @@
+class DiscordNotifier:
+    """Send notifications via feishu webhook."""
+
+    def __init__(self, webhook_url: str) -> None: ...
+
+    async def send_text(self, text: str) -> bool: ...

@@ -6,3 +6,62 @@
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
 }
 
+body {
+  background: #0a0a0c;
+  color: #d4d4d8;
+}
+
+.markdown-preview {
+  color: #d4d4d8;
+  line-height: 1.8;
+  font-size: 0.95rem;
+}
+
+.markdown-preview h1,
+.markdown-preview h2,
+.markdown-preview h3 {
+  color: #fafafa;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.markdown-preview h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.markdown-preview h2 {
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.markdown-preview h3 {
+  font-size: 0.95rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.markdown-preview p,
+.markdown-preview ul,
+.markdown-preview ol {
+  margin-bottom: 0.9rem;
+}
+
+.markdown-preview ul,
+.markdown-preview ol {
+  padding-left: 1.4rem;
+}
+
+.markdown-preview li {
+  margin-bottom: 0.4rem;
+}
+
+.markdown-preview code {
+  padding: 0.1rem 0.35rem;
+  border-radius: 0.35rem;
+  background: rgba(255, 255, 255, 0.06);
+  color: #86efac;
+}
